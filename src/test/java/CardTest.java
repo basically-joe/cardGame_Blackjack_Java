@@ -13,13 +13,18 @@ public class CardTest {
 	}
 
 	@Test
-	public void getSuit(){
+	public void testSuit(){
 		assertEquals(SuitType.HEARTS, card.getSuit());
 	}
 
 	@Test
-	public void getRank(){
+	public void testRank(){
 		assertEquals(RankType.KING, card.getRank());
+	}
+
+	@Test
+	public void testKingHasValueOf10() {
+		assertEquals(10, card.getValueFromEnum());
 	}
 
 }

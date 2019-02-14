@@ -17,4 +17,9 @@ public RankType getRank(){
 	return this.rank;
 }
 
+public int getValueFromEnum(){
+	return this.rank.getValue();
+}
+
+
 }
