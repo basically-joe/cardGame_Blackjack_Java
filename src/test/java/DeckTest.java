@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class DeckTest {
 
@@ -28,9 +28,21 @@ public class DeckTest {
 		assertEquals(52, deck.getDeckCardCount());
 	}
 
-	@Test
-	public void deckHasDifferentCards(){
-		deck.populateDeckWithCards();
+//	@Test
+//	public void deckHasUniqueCards(){
+//		deck.populateDeckWithCards();
+//		assertEquals(true, deck.hasUniqueCards());
+//	}
 
+
+	@Test
+	public void canShuffleArray(){
+		deck.populateDeckWithCards();
+		Card initialFirstCard = deck.cards.get(0);
+		deck.shuffleCards();
+		Card shuffledFirstCard = deck.cards.get(0);
+		assertNotEquals(initialFirstCard, shuffledFirstCard);
 	}
+
+
 }

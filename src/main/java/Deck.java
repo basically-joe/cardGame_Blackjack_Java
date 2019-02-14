@@ -1,8 +1,10 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck {
 
-	private ArrayList<Card> cards;
+	public ArrayList<Card> cards;
 
 	public Deck(){
 		this.cards = new ArrayList<>();
@@ -10,6 +12,10 @@ public class Deck {
 
 	public int getDeckCardCount(){
 		return this.cards.size();
+	}
+
+	public ArrayList getDeck(){
+		return this.cards;
 	}
 
 	public ArrayList populateDeckWithCards() {
@@ -23,6 +29,11 @@ public class Deck {
 			}
 		}
 		return this.cards;
+	}
+
+	public void shuffleCards(){
+		ArrayList cardOrig = populateDeckWithCards();
+		Collections.shuffle(cardOrig);
 	}
 
 
