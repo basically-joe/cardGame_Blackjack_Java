@@ -36,5 +36,11 @@ public class Deck {
 		Collections.shuffle(cardOrig);
 	}
 
+	public Card dealOneCard(int index){
+		populateDeckWithCards();
+		shuffleCards();
+		return this.cards.get(index);
+	}
+
 
 }

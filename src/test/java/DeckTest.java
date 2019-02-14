@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+
+import static org.junit.Assert.*;
 
 public class DeckTest {
 
@@ -42,6 +42,14 @@ public class DeckTest {
 		deck.shuffleCards();
 		Card shuffledFirstCard = deck.cards.get(0);
 		assertNotEquals(initialFirstCard, shuffledFirstCard);
+	}
+
+	@Test
+	public void testCanDealCard(){
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		Card card = deck.dealOneCard(0);
+		assertFalse(0>card.getValueFromEnum());
 	}
 
 
