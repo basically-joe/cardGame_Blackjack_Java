@@ -24,4 +24,15 @@ public class PlayerTest {
 		assertEquals("Joe", player.getPlayerName());
 	}
 
+	@Test
+	public void checkNoCardsInPlayersHand(){
+		assertEquals(0, player.countPlayersCards());
+	}
+
+//	@Test
+//	public void addCardsToPlayerHand(){
+//		addCardsToPlayerHand();
+//		assertEquals(2, countPlayersCards());
+//	}
+
 }

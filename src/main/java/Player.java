@@ -14,4 +14,8 @@ public class Player {
 		return this.playerName;
 	}
 
+	public int countPlayersCards(){
+		return this.playersHand.size();
+	}
+
 }
