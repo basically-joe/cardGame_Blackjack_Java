@@ -36,4 +36,13 @@ public class PlayerTest {
 		assertEquals(2, player.countPlayersCards());
 	}
 
+	@Test
+	public void checkRemovingAllCardsFromPLayersHand(){
+		player.addCardsToPlayersHand(card);
+		player.addCardsToPlayersHand(card2);
+		assertEquals(2, player.countPlayersCards());
+		player.removeAllCardsFromPlayersHand();
+		assertEquals(0, player.countPlayersCards());
+	}
+
 }

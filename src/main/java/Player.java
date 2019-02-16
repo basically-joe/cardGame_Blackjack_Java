@@ -22,4 +22,8 @@ public class Player {
 		this.playersHand.add(card);
 	}
 
+	public void removeAllCardsFromPlayersHand(){
+		this.playersHand.clear();
+	}
+
 }
