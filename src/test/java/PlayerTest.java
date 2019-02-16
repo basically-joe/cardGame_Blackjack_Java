@@ -29,10 +29,11 @@ public class PlayerTest {
 		assertEquals(0, player.countPlayersCards());
 	}
 
-//	@Test
-//	public void addCardsToPlayerHand(){
-//		addCardsToPlayerHand();
-//		assertEquals(2, countPlayersCards());
-//	}
+	@Test
+	public void addCardsToPlayerHand(){
+		player.addCardsToPlayersHand(card);
+		player.addCardsToPlayersHand(card2);
+		assertEquals(2, player.countPlayersCards());
+	}
 
 }

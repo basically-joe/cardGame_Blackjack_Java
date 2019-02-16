@@ -18,4 +18,8 @@ public class Player {
 		return this.playersHand.size();
 	}
 
+	public void addCardsToPlayersHand(Card card){
+		this.playersHand.add(card);
+	}
+
 }
