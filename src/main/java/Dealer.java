@@ -27,5 +27,9 @@ public class Dealer {
 		this.dealerHand.add(card);
 	}
 
+	public void removeAllCardsFromDealer(){
+		this.dealerHand.clear();
+	}
+
 
 }

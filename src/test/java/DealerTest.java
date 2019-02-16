@@ -47,6 +47,15 @@ import static org.junit.Assert.assertNotNull;
 			assertEquals(1, dealer.countDealersCards());
 		}
 
+		@Test
+		public void canClearDealersHand(){
+			dealer.addCardsToDealersHand(card);
+			dealer.addCardsToDealersHand(card);
+			assertEquals(2, dealer.countDealersCards());
+			dealer.removeAllCardsFromDealer();
+			assertEquals(0, dealer.countDealersCards());
+		}
+
 
 	}
 
