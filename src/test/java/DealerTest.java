@@ -16,18 +16,25 @@ import static org.junit.Assert.assertNotNull;
 
 		@Before
 		public void before(){
-			dealer = new Dealer();
+			dealer = new Dealer("Jock");
 			deck = new Deck();
 		}
 
 		@Test
-		public void GameCanDeal(){
+		public void GameDealerCanDeal(){
 			deck.populateDeckWithCards();
 			deck.shuffleCards();
 			Card card = dealer.deal(deck);
 			assertNotNull(card);
 			assertEquals(51, deck.getDeckCardCount());
 		}
+
+		@Test
+		public void DealerHasName(){
+			assertEquals("Jock", dealer.getDealerName());
+		}
+
+
 	}
 
 
