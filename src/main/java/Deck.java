@@ -32,14 +32,11 @@ public class Deck {
 	}
 
 	public void shuffleCards(){
-		ArrayList cardOrig = populateDeckWithCards();
-		Collections.shuffle(cardOrig);
+		Collections.shuffle(this.cards);
 	}
 
-	public Card dealOneCard(int index){
-		populateDeckWithCards();
-		shuffleCards();
-		return this.cards.get(index);
+	public Card dealCard(){
+		return this.cards.remove(0);
 	}
 
 

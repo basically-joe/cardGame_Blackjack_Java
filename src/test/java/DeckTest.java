@@ -28,12 +28,6 @@ public class DeckTest {
 		assertEquals(52, deck.getDeckCardCount());
 	}
 
-//	@Test
-//	public void deckHasUniqueCards(){
-//		deck.populateDeckWithCards();
-//		assertEquals(true, deck.hasUniqueCards());
-//	}
-
 
 	@Test
 	public void canShuffleArray(){
@@ -45,11 +39,11 @@ public class DeckTest {
 	}
 
 	@Test
-	public void testCanDealCard(){
+	public void canGetCard(){
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
-		Card card = deck.dealOneCard(0);
-		assertFalse(0>card.getValueFromEnum());
+		assertNotNull(deck.dealCard());
+		assertEquals(51, deck.getDeckCardCount());
 	}
 
 
