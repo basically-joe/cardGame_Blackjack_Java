@@ -19,5 +19,9 @@ public class Dealer {
 		return deck.dealCard();
 	}
 
+	public int countDealersCards(){
+		return this.dealerHand.size();
+	}
+
 
 }

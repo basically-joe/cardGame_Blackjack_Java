@@ -34,6 +34,17 @@ import static org.junit.Assert.assertNotNull;
 			assertEquals("Jock", dealer.getDealerName());
 		}
 
+		@Test
+		public void checkNoCardsInDealersHand(){
+			assertEquals(0, dealer.countDealersCards());
+		}
+
+//		@Test
+//		public void canAddCardsToDealersHand(){
+//			addCardsToDealersHand();
+//			assertEquals(1, dealer.countDealersCards());
+//		}
+
 
 	}
 
