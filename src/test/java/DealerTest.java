@@ -56,6 +56,13 @@ import static org.junit.Assert.assertNotNull;
 			assertEquals(0, dealer.countDealersCards());
 		}
 
+		@Test
+		public void canCheckValueOfDealersHand(){
+			dealer.addCardsToDealersHand(card);
+			assertEquals(1, dealer.countDealersCards());
+			assertEquals(5, dealer.checkDealerScore());
+		}
+
 
 	}
 

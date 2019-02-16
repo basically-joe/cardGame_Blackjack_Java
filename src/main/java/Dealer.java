@@ -31,5 +31,13 @@ public class Dealer {
 		this.dealerHand.clear();
 	}
 
+	public int checkDealerScore(){
+		int total = 0;
+		for (Card card : this.dealerHand){
+			total += card.getValueFromEnum();
+		}
+		return total;
+	}
+
 
 }
