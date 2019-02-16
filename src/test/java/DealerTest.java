@@ -14,12 +14,14 @@ import static org.junit.Assert.assertNotNull;
 		Dealer dealer;
 		Deck deck;
 		Card card;
+		Card card2;
 
 		@Before
 		public void before(){
 			dealer = new Dealer("Jock");
 			deck = new Deck();
 			card = new Card(SuitType.HEARTS, RankType.FIVE);
+			card2 = new Card(SuitType.CLUBS, RankType.ACE);
 		}
 
 		@Test
@@ -44,7 +46,8 @@ import static org.junit.Assert.assertNotNull;
 		@Test
 		public void canAddCardsToDealersHand(){
 			dealer.addCardsToDealersHand(card);
-			assertEquals(1, dealer.countDealersCards());
+			dealer.addCardsToDealersHand(card2);
+			assertEquals(2, dealer.countDealersCards());
 		}
 
 		@Test
