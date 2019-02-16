@@ -23,5 +23,9 @@ public class Dealer {
 		return this.dealerHand.size();
 	}
 
+	public void addCardsToDealersHand(Card card){
+		this.dealerHand.add(card);
+	}
+
 
 }
