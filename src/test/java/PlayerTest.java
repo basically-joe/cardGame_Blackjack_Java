@@ -45,4 +45,10 @@ public class PlayerTest {
 		assertEquals(0, player.countPlayersCards());
 	}
 
+	@Test
+	public void checkTotalForPlayersHand(){
+		player.addCardsToPlayersHand(card);
+		assertEquals(5, player.valueOfPlayersHand());
+	}
+
 }

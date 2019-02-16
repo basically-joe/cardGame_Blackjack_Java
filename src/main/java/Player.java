@@ -26,4 +26,12 @@ public class Player {
 		this.playersHand.clear();
 	}
 
+	public int valueOfPlayersHand(){
+		int total = 0;
+		for (Card card : this.playersHand){
+			total += card.getValueFromEnum();
+		}
+		return total;
+	}
+
 }
