@@ -27,8 +27,10 @@ public class GameLogic {
 
 	public String gameWinnerPlayer(){
 		String winner = "";
+		dealerBust();
+		playerBust();
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() > dealer.checkDealerScore() && player.valueOfPlayersHand() <= 21) {
+			if (player.valueOfPlayersHand() > dealer.checkDealerScore()) {
 				String winner1 = "Player wins";
 				return winner1;
 			}else{
