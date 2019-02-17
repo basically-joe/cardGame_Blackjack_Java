@@ -1,9 +1,10 @@
+import org.hamcrest.CoreMatchers;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class GameLogicTest {
 
@@ -18,15 +19,15 @@ public class GameLogicTest {
 		deck = new Deck();
 		dealer = new Dealer("Sam");
 		player1 = new Player("Joe");
-		player2 = new Player("Stevie");
+//		player2 = new Player("Stevie");
 		ArrayList<Player> players = new ArrayList<>();
 		players.add(player1);
-		players.add(player2);
+//		players.add(player2);
 		game = new GameLogic(deck, dealer, players);
 	}
 
 	@Test
-	public void testDealerGets2cards(){
+	public void testDealerGets2cards() {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
@@ -34,14 +35,22 @@ public class GameLogicTest {
 	}
 
 	@Test
-	public void testAllPlayersAndDealerGet2Cards(){
+	public void testAllPlayersAndDealerGet2Cards() {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals(46, deck.getDeckCardCount());
+		assertEquals(48, deck.getDeckCardCount());
 		assertEquals(2, dealer.countDealersCards());
 		assertEquals(2, player1.countPlayersCards());
-		assertEquals(2, player2.countPlayersCards());
+//		assertEquals(2, player2.countPlayersCards());
+	}
+
+	@Test
+	public void testPlayer1WinsWithHighestHand() {
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		game.playGame();
+		assertEquals(player1, game.gameWinnerPlayer());
 	}
 
 }
