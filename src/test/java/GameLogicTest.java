@@ -11,7 +11,7 @@ public class GameLogicTest {
 	GameLogic game;
 	Dealer dealer;
 	Player player1;
-	Player player2;
+//	Player player2;
 	Deck deck;
 
 	@Before
@@ -77,6 +77,15 @@ public class GameLogicTest {
 		game.playGame();
 		game.dealerTwist();
 		assertEquals(3, dealer.countDealersCards());
+	}
+
+	@Test
+	public void testPlayerTwisting(){
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		game.playGame();
+		game.playerTwist();
+		assertEquals(3, player1.countPlayersCards());
 	}
 
 	@Test
