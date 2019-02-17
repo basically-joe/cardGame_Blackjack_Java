@@ -89,4 +89,14 @@ public class GameLogicTest {
 		assertEquals(true, game.dealerSticks());
 	}
 
+	@Test
+	public void testPlayerSticking(){
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		game.playGame();
+		game.playerSticks();
+		assertEquals(2, player1.countPlayersCards());
+		assertEquals(true, game.playerSticks());
+	}
+
 }

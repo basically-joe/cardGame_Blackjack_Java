@@ -79,5 +79,17 @@ public class GameLogic {
 		}
 	}
 
+	public boolean playerSticks(){
+		for (Player player : this.players) {
+			if (player.valueOfPlayersHand() >= 16) {
+				return true;
+			}else{
+				return false;
+			}
+
+		}
+		return false;
+	}
+
 
 }
