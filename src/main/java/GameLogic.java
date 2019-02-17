@@ -40,5 +40,13 @@ public class GameLogic {
 		return winner;
 	}
 
+	public boolean dealerBust(){
+		if (dealer.checkDealerScore() >= 1){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
 
 }
