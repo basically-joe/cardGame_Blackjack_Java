@@ -50,7 +50,8 @@ public class GameLogicTest {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals(player1, game.gameWinnerPlayer());
+		assertEquals("Player wins", game.gameWinnerPlayer());
+		assertEquals("Dealer wins", game.gameWinnerPlayer());
 	}
 
 }

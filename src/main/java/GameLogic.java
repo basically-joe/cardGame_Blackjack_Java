@@ -6,18 +6,18 @@ public class GameLogic {
 	private Dealer dealer;
 	private ArrayList<Player> players;
 
-	public GameLogic(Deck deck, Dealer dealer, ArrayList<Player> players) {
+	public GameLogic(Deck deck, Dealer dealer, ArrayList<Player> players){
 		this.deck = deck;
 		this.dealer = dealer;
 		this.players = players;
 	}
 
-	public void playGame() {
+	public void playGame(){
 		Card card = dealer.deal(deck);
 		dealer.addCardsToDealersHand(card);
 		Card card2 = dealer.deal(deck);
 		dealer.addCardsToDealersHand(card2);
-		for (Player player : players) {
+		for (Player player : players){
 			Card card3 = dealer.deal(deck);
 			player.addCardsToPlayersHand(card3);
 			Card card4 = dealer.deal(deck);
@@ -25,19 +25,20 @@ public class GameLogic {
 		}
 	}
 
-	public Player gameWinnerPlayer() {
+	public String gameWinnerPlayer(){
+		String winner = "";
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() > dealer.checkDealerScore()) {
-				return player;
-			} else {
-				gameWinnerDealer();
+			if (player.valueOfPlayersHand() > dealer.checkDealerScore() && player.valueOfPlayersHand() <= 21) {
+				String winner1 = "Player wins";
+				return winner1;
+			}else{
+				String winner2 = "Dealer wins";
+				return winner2;
 			}
+
 		}
-		return null;
+		return winner;
 	}
 
-	public Dealer gameWinnerDealer() {
-		return dealer;
-	}
 
 }
