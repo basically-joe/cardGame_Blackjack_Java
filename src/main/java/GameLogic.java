@@ -41,11 +41,23 @@ public class GameLogic {
 	}
 
 	public boolean dealerBust(){
-		if (dealer.checkDealerScore() >= 1){
+		if (dealer.checkDealerScore() <= 21){
 			return true;
 		}else{
 			return false;
 		}
+	}
+
+	public boolean playerBust(){
+		for (Player player : this.players) {
+			if (player.valueOfPlayersHand() <= 21) {
+				return true;
+			}else{
+				return false;
+			}
+
+		}
+		return false;
 	}
 
 

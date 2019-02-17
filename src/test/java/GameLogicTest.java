@@ -62,4 +62,12 @@ public class GameLogicTest {
 		assertEquals(true, game.dealerBust());
 	}
 
+	@Test
+	public void testPlayerBust(){
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		game.playGame();
+		assertEquals(true, game.playerBust());
+	}
+
 }

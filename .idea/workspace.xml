@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="363">
+              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="60" column="42" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="42" />
+              <caret line="69" column="42" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -156,7 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550425358624" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550425724675" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -202,24 +202,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 31m 16s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 31m 21s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 31m 25s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 31m 29s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 31m 33s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 31m 41s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 32m 18s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
@@ -230,6 +212,24 @@
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 32m 45s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 41m 27s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 41m 53s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 00s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 11s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 32s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 40s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -341,14 +341,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="42" />
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        <state relative-caret-position="363">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
         </state>
       </provider>
     </entry>
