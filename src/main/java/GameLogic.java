@@ -30,6 +30,7 @@ public class GameLogic {
 		dealerBust();
 		playerBust();
 		dealerTwist();
+		dealerSticks();
 		for (Player player : this.players) {
 			if (player.valueOfPlayersHand() > dealer.checkDealerScore()) {
 				String winner1 = "Player wins";
@@ -67,6 +68,14 @@ public class GameLogic {
 		if (dealer.checkDealerScore() < 16){
 			Card card = dealer.deal(deck);
 			dealer.addCardsToDealersHand(card);
+		}
+	}
+
+	public boolean dealerSticks(){
+		if (dealer.checkDealerScore() >= 16) {
+			return true;
+		}else{
+			return false;
 		}
 	}
 
