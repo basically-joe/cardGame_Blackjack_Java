@@ -30,8 +30,18 @@ public class GameLogicTest {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals(50, deck.getDeckCardCount());
 		assertEquals(2, dealer.countDealersCards());
+	}
+
+	@Test
+	public void testAllPlayersAndDealerGet2Cards(){
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		game.playGame();
+		assertEquals(46, deck.getDeckCardCount());
+		assertEquals(2, dealer.countDealersCards());
+		assertEquals(2, player1.countPlayersCards());
+		assertEquals(2, player2.countPlayersCards());
 	}
 
 }

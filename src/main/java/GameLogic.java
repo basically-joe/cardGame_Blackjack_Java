@@ -17,6 +17,12 @@ public class GameLogic {
 		dealer.addCardsToDealersHand(card);
 		Card card2 = dealer.deal(deck);
 		dealer.addCardsToDealersHand(card2);
+		for (Player player : players){
+			Card card3 = dealer.deal(deck);
+			player.addCardsToPlayersHand(card3);
+			Card card4 = dealer.deal(deck);
+			player.addCardsToPlayersHand(card4);
+		}
 	}
 
 }
