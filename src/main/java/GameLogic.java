@@ -25,16 +25,14 @@ public class GameLogic {
 		}
 	}
 
-	public String gameWinnerPlayer(){
+	public String gameWinner(){
 		String winner = "";
-		dealerBust();
-		playerBust();
 		playerTwist();
 		dealerTwist();
 		dealerSticks();
 		playerSticks();
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() > dealer.checkDealerScore()) {
+			if (player.valueOfPlayersHand() > dealer.checkDealerScore() && dealerBust() && playerBust()) {
 				String winner1 = "Player wins";
 				return winner1;
 			}else{
