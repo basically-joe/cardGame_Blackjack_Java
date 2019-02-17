@@ -24,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dealer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="432">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
@@ -48,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="310">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="69" column="42" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="42" />
+            <state relative-caret-position="-77">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -92,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dealer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GameLogicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GameLogic.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GameLogicTest.java" />
       </list>
     </option>
   </component>
@@ -156,7 +156,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550425886602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550426285442" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -202,34 +202,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 32m 18s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 48m 30s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 32m 28s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 48m 36s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 32m 34s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 48m 40s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 32m 45s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 48m 43s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 41m 27s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 48m 46s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 41m 53s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 50m 38s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 00s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 50m 42s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 11s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 51m 18s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 32s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 51m 23s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 42m 40s.xml">
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.17 at 17h 51m 28s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -247,7 +247,7 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.29036143" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32409638" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32328105" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -317,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dealer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -338,17 +331,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dealer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="42" />
+        <state relative-caret-position="432">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        <state relative-caret-position="310">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
         </state>
       </provider>
     </entry>

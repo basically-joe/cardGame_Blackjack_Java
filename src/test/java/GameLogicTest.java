@@ -45,14 +45,14 @@ public class GameLogicTest {
 //		assertEquals(2, player2.countPlayersCards());
 	}
 
-	@Test
-	public void testPlayer1WinsWithHighestHand() {
-		deck.populateDeckWithCards();
-		deck.shuffleCards();
-		game.playGame();
-		assertEquals("Player wins", game.gameWinnerPlayer());
-		assertEquals("Dealer wins", game.gameWinnerPlayer());
-	}
+//	@Test
+//	public void testPlayer1WinsWithHighestHand() {
+//		deck.populateDeckWithCards();
+//		deck.shuffleCards();
+//		game.playGame();
+//		assertEquals("Player wins", game.gameWinnerPlayer());
+//		assertEquals("Dealer wins", game.gameWinnerPlayer());
+//	}
 
 	@Test
 	public void testDealerBust(){
@@ -68,6 +68,15 @@ public class GameLogicTest {
 		deck.shuffleCards();
 		game.playGame();
 		assertEquals(true, game.playerBust());
+	}
+
+	@Test
+	public void testDealerTwisting(){
+		deck.populateDeckWithCards();
+		deck.shuffleCards();
+		game.playGame();
+		game.dealerTwist();
+		assertEquals(3, dealer.countDealersCards());
 	}
 
 }
