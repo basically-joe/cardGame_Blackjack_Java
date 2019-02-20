@@ -59,7 +59,7 @@ public class GameLogic {
 
 	public boolean playerNotBust(){
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() <= 21) {
+			if (player.checkForAcesInHandAndAdd10() <= 21) {
 				this.bustOrNot = true;
 			}else{
 				this.bustOrNot = false;
