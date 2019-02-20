@@ -31,9 +31,11 @@ public class GameLogic {
 		dealerTwist();
 		dealerSticks();
 		playerSticks();
+		playerBust();
+		dealerBust();
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() > dealer.checkDealerScore() && dealerBust() && playerBust()) {
-				String winner1 = "Player wins";
+			if (player.valueOfPlayersHand() > dealer.checkDealerScore()) {
+				String winner1 = "Player: " + player.getPlayerName() + " wins!";
 				return winner1;
 			}else{
 				String winner2 = "Dealer wins";

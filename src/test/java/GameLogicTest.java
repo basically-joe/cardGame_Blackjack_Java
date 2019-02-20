@@ -46,11 +46,11 @@ public class GameLogicTest {
 	}
 
 	@Test
-	public void testPlayer1WinsWithHighestHand() {
+	public void testWhoWinsWithHighestHand() {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals("Player wins", game.gameWinner());
+		assertEquals("Player: Joe wins!", game.gameWinner());
 		assertEquals("Dealer wins", game.gameWinner());
 	}
 
