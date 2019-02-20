@@ -70,7 +70,7 @@ public class GameLogicTest {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals(true, game.playerBust());
+		assertEquals(true, game.playerNotBust());
 	}
 
 	@Test

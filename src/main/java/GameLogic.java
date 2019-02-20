@@ -5,11 +5,13 @@ public class GameLogic {
 	private Deck deck;
 	private Dealer dealer;
 	private ArrayList<Player> players;
+	private boolean bustOrNot;
 
 	public GameLogic(Deck deck, Dealer dealer, ArrayList<Player> players){
 		this.deck = deck;
 		this.dealer = dealer;
 		this.players = players;
+		this.bustOrNot = true;
 	}
 
 	public void playGame(){
@@ -31,10 +33,10 @@ public class GameLogic {
 		dealerTwist();
 		dealerSticks();
 		playerSticks();
-		playerBust();
+		playerNotBust();
 		dealerBust();
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() > dealer.checkDealerScore()) {
+			if (player.checkForAcesInHandAndAdd10() > dealer.checkDealerScore()) {
 				String winner1 = "Player: " + player.getPlayerName() + " wins!";
 				return winner1;
 			}else{
@@ -54,16 +56,15 @@ public class GameLogic {
 		}
 	}
 
-	public boolean playerBust(){
+	public boolean playerNotBust(){
 		for (Player player : this.players) {
 			if (player.valueOfPlayersHand() <= 21) {
-				return true;
+				this.bustOrNot = true;
 			}else{
-				return false;
+				this.bustOrNot = false;
 			}
-
 		}
-		return false;
+		return this.bustOrNot;
 	}
 
 	public void dealerTwist(){
