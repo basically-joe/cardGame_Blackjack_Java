@@ -79,6 +79,8 @@ public class GameLogicTest {
 		deck.shuffleCards();
 		game.playGame();
 		game.dealerTwist();
+		Integer dealerTwistCards = dealer.countDealersCards();
+		assertTrue(dealerTwistCards.equals(2) || dealerTwistCards.equals(3));
 		assertEquals(3, dealer.countDealersCards());
 	}
 
