@@ -34,7 +34,7 @@ public class GameLogic {
 		dealerSticks();
 		playerSticks();
 		playerNotBust();
-		dealerBust();
+		dealerNotBust();
 		for (Player player : this.players) {
 			if (player.checkForAcesInHandAndAdd10() > dealer.checkDealerScore()) {
 				String winner1 = "Player: " + player.getPlayerName() + " wins!";
@@ -48,12 +48,13 @@ public class GameLogic {
 		return winner;
 	}
 
-	public boolean dealerBust(){
+	public boolean dealerNotBust(){
 		if (dealer.checkDealerScore() <= 21){
-			return true;
+			this.bustOrNot = true;
 		}else{
-			return false;
+			this.bustOrNot = false;
 		}
+		return this.bustOrNot;
 	}
 
 	public boolean playerNotBust(){

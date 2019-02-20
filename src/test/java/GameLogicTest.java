@@ -62,7 +62,7 @@ public class GameLogicTest {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals(true, game.dealerBust());
+		assertEquals(true, game.dealerNotBust());
 	}
 
 	@Test

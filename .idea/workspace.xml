@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="945af888-d6c7-4194-bad8-26c847e74e3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameLogicTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="165">
+              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="86" column="34" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="34" />
+            <state relative-caret-position="161">
+              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -68,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="708">
               <caret line="54" column="59" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="59" />
             </state>
           </provider>
@@ -99,9 +100,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Deck.java" />
         <option value="$PROJECT_DIR$/src/test/java/DealerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dealer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GameLogicTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Player.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GameLogicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GameLogic.java" />
       </list>
     </option>
@@ -165,7 +166,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550699308720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550699429555" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -223,21 +224,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 32m 45s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 32m 49s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 34m 06s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 37m 51s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 37m 57s.xml">
-      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 38m 03s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
@@ -251,6 +237,21 @@
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 40m 39s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 45m 13s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 45m 39s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 45m 54s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 47m 00s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 21h 48m 31s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -443,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="86" column="34" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -459,15 +453,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="708">
           <caret line="54" column="59" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="165">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
         </state>
       </provider>
     </entry>
