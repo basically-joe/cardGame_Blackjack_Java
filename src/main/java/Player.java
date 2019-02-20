@@ -26,6 +26,16 @@ public class Player {
 		this.playersHand.clear();
 	}
 
+	public int checkForAcesInHandAndAdd10(){
+		int total = 0;
+		for (Card card : this.playersHand){
+			if (card.getRank() == RankType.ACE){
+				total += 1;
+			}
+		}
+		return total * 10 + this.valueOfPlayersHand();
+	}
+
 	public int valueOfPlayersHand(){
 		int total = 0;
 		for (Card card : this.playersHand){

@@ -51,4 +51,12 @@ public class PlayerTest {
 		assertEquals(5, player.valueOfPlayersHand());
 	}
 
+	@Test
+	public void testAdding10ToPlayersHandValueWhenAcesFound(){
+		player.addCardsToPlayersHand(card);
+		player.addCardsToPlayersHand(card2);
+		assertEquals(2, player.countPlayersCards());
+		assertEquals(16, player.checkForAcesInHandAndAdd10());
+	}
+
 }
