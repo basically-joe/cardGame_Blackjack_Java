@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="945af888-d6c7-4194-bad8-26c847e74e3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/GameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GameLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/GameLogicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/GameLogicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameLogicTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="262">
               <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
             </state>
           </provider>
@@ -36,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="262">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -160,7 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550695292425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550696338404" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -218,9 +215,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameLogicTest_testPlayerTwisting - 2019.02.18 at 09h 43m 09s.xml">
-      <configuration name="GameLogicTest.testPlayerTwisting" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameLogicTest_testPlayerTwisting - 2019.02.18 at 09h 44m 14s.xml">
       <configuration name="GameLogicTest.testPlayerTwisting" configurationId="JUnit" />
     </history-entry>
@@ -248,6 +242,9 @@
     <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 20h 41m 35s.xml">
       <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_com_example_CardGame_test - 2019.02.20 at 20h 46m 30s.xml">
+      <configuration name="All in com.example.CardGame.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -258,7 +255,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -267,7 +264,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32409638" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32409638" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -431,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IPlayerable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -459,10 +449,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GameLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameLogicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="262">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="55" selection-end-column="55" />
         </state>
       </provider>
     </entry>

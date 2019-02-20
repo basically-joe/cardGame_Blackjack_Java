@@ -1,9 +1,9 @@
-import org.hamcrest.CoreMatchers;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 import static org.junit.Assert.*;
 
 public class GameLogicTest {
@@ -13,6 +13,7 @@ public class GameLogicTest {
 	Player player1;
 //	Player player2;
 	Deck deck;
+	String myString;
 
 	@Before
 	public void before() {
@@ -24,6 +25,7 @@ public class GameLogicTest {
 		players.add(player1);
 //		players.add(player2);
 		game = new GameLogic(deck, dealer, players);
+		myString = myString;
 	}
 
 	@Test
@@ -50,8 +52,9 @@ public class GameLogicTest {
 		deck.populateDeckWithCards();
 		deck.shuffleCards();
 		game.playGame();
-		assertEquals("Player: Joe wins!", game.gameWinner());
-		assertEquals("Dealer wins", game.gameWinner());
+		myString = game.gameWinner();
+		assertTrue(myString.equals("Player: Joe wins!") || myString.equals("Dealer wins"));
+
 	}
 
 	@Test
