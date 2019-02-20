@@ -77,7 +77,7 @@ public class GameLogic {
 
 	public void playerTwist(){
 			for (Player player : players){
-				if(player.valueOfPlayersHand() < 16) {
+				if(player.checkForAcesInHandAndAdd10() < 16) {
 					Card card3 = dealer.deal(deck);
 					player.addCardsToPlayersHand(card3);
 				}
@@ -95,7 +95,7 @@ public class GameLogic {
 
 	public boolean playerSticks(){
 		for (Player player : this.players) {
-			if (player.valueOfPlayersHand() >= 16) {
+			if (player.checkForAcesInHandAndAdd10() >= 16) {
 				return true;
 			}else{
 				return false;
